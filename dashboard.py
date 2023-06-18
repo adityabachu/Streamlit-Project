@@ -12,7 +12,6 @@ st.dataframe(data.head())
 st.header("Descriptive statistics of the data :")
 st.dataframe(data.describe())
 
-st.header("Let's look at the amount of usage of apps :")
 
 figure = px.bar(data_frame=data, 
                 x = "Date", 
