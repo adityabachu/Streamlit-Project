@@ -32,13 +32,5 @@ figure = px.bar(data_frame=data,
 
 st.plotly_chart(figure)
 
-st.header("Now let’s have a look at the number of times the apps opened :")
-
-figure = px.bar(data_frame=data, 
-                x = "Date", 
-                y = "Times opened", 
-                color="App",
-                title="Times Opened")
-
 st.plotly_chart(figure)
 
