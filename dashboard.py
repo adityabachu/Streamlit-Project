@@ -32,5 +32,3 @@ figure = px.bar(data_frame=data,
 
 st.plotly_chart(figure)
 
-st.plotly_chart(figure)
-
