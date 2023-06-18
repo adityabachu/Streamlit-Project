@@ -21,7 +21,7 @@ figure = px.bar(data_frame=data,
 
 st.plotly_chart(figure)
 
-st.header("Now let’s have a look at the number of notifications from the apps :")
+
 
 figure = px.bar(data_frame=data, 
                 x = "Date", 
